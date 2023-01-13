@@ -11,6 +11,10 @@ amountLeftFinal = amountPaid - amountPaidAftertoBroker
 profit = amountLeftFinal - amountLeftInitial
 
 # displaying the various asked quantities
-print()
+print('The amount paid for the stock was: ',format(amountPaid,'12,.2f'))
+print('The amount paid to the broker initially was: ',format(amountPaidtoBroker,'12,.2f'))
+print('The amount the stock sold for was: ',format(amountAfter,'12,.2f'))
+print('The amount of commision that Joe paid to his broker was: ',format(amountPaidAftertoBroker,'12,.2f'))
+print('The amount of profit Joe made was: ',format(profit,'12,.2f'))
 
 
