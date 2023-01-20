@@ -83,3 +83,17 @@ if item_sep == ",sep=''":
 else: 
     print("Incorret\n")
 
+format_function = str(input('What is the function used to format the output of a specific variable?'))
+if format_function == "fotmat()":
+    print('Correct\n')
+else: 
+    print("Incorret\n")
+
+str_cat = str(input('What operator is use to concatenate two string literals?'))
+if str_cat == "+":
+    print('Correct\n')
+else: 
+    print("Incorret\n")
+
+
+
