@@ -12,7 +12,7 @@ if len(password) < 8:
 else:
     if password == password_match:
         print('These passwords match.')
-        print(first,last,username + "@gmail.com",password, end = " ")
+        print(first,last,username + "@gmail.com",password, sep="\n")
     else:
         print('These passwords do not match')
 
